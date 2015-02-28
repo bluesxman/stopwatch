@@ -21,10 +21,10 @@ Elapsed time: 201.576098 msecs
 While handy, clojure.core/time does not support programmatic access to timing data.  Instead, Stopwatch's macros provide access to the timing value, either as the returned value or via a handler function.  The latter case supports instrumenting code for collecting timing data without changing code execution.
 
 ## Installation
+
 Leiningen
-```clj
-[stopwatch "0.1.0-SNAPSHOT"]
-```
+
+[![Clojars Project](http://clojars.org/stopwatch/latest-version.svg)](http://clojars.org/stopwatch)
 
 Gradle
 ```groovy
