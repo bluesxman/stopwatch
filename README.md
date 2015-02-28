@@ -1,4 +1,5 @@
-# Stopwatch
+# Stopwatch 
+[![Build Status](https://travis-ci.org/bluesxman/stopwatch.svg?branch=master)](https://travis-ci.org/bluesxman/stopwatch)
 
 A small, simple, composable library for timing expression evaluation.
 
