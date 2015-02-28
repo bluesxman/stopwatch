@@ -6,10 +6,13 @@ A small, simple, composable library for timing expression evaluation.
 ```clj
 (require '[stopwatch.core :refer :all])
 => nil
+
 (nano (reduce + (range 1e6)))
 => 258354609
+
 (nanov (reduce + (range 1e6)))
 => [155710388 499999500000]
+
 (nanof
   #(println (str "Elapsed time: " (* % 1.0e-6) " msecs"))
   (reduce + (range 1e6)))
