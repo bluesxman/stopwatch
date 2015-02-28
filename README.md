@@ -28,7 +28,7 @@ Leiningen
 
 Gradle
 ```groovy
-compile "stopwatch:stopwatch:0.1.0-SNAPSHOT"
+compile "stopwatch:stopwatch:0.1.0"
 ```
 
 Maven
@@ -36,7 +36,7 @@ Maven
 <dependency>
   <groupId>stopwatch</groupId>
   <artifactId>stopwatch</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.1.0</version>
 </dependency>
 ```
 
